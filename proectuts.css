@@ -1,0 +1,865 @@
+
+/* HEADER */
+#header {
+    background-color: #46372F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+/* LOGO */
+#header h1 {
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+/* NAVIGASI */
+#header nav {
+    display: flex;
+    gap: 30px;
+}
+
+#header nav a {
+    color: white;
+    font-family: Garamond, serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* HOME */
+#home {
+    background-image:
+        linear-gradient(rgba(245, 240, 232, 0.55),
+        rgba(245, 240, 232, 0.55)),
+        url('Images/bg landscape.jpeg');
+
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* WELCOME */
+#home .welcome {
+    color: #46372F;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 4px;
+    margin: 0 0 15px 0;
+}
+
+/* JUDUL */
+#home h1 {
+    color: #46372F;
+    font-family: Georgia, serif;
+    font-size: 65px;
+    letter-spacing: 5px;
+    margin: 0 0 15px 0;
+}
+
+/* TAGLINE */
+#home #tagline {
+    color: #46372F;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0 0 45px 0;
+}
+
+/* SUBJUDUL */
+#home h2 {
+    color: #46372F;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    border: 1px solid #46372F;
+    border-radius: 50px;
+    padding: 15px 35px;
+    margin: 0;
+}
+
+
+/* BAGIAN ABOUT US */
+
+#about-us {
+    background-color: #D9C8B5;
+    color: #46372F;
+    padding: 80px 8%;
+}
+
+.about-container {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-label {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #9C8069;
+    margin-bottom: 20px;
+}
+
+.about-container h2 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.about-container h2 span {
+    font-style: italic;
+    color: #9C8069;
+}
+
+.about-text {
+    font-size: 15px;
+    line-height: 2;
+    color: #46372F;
+    margin-bottom: 20px;
+}
+
+.about-closing {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    margin: 30px 0 45px;
+}
+
+/* BAGIAN PODCAST */
+
+.about-podcast {
+    border-top: 1px solid #D9C8B5;
+    padding-top: 35px;
+}
+
+.about-podcast > p:first-child {
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #9C8069;
+}
+
+.about-podcast h3 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.about-podcast p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.about-button {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 14px 25px;
+    background-color: #46372F;
+    color: #F5F0E8;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.about-button:hover {
+    background-color: #9C8069;
+}
+
+
+/* COLLECTION */
+#collection {
+    background-color: white;
+    color: #46372F;
+    padding: 80px 8%;
+    text-align: center;
+}
+
+/* JUDUL */
+#collection h1 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+/* DAFTAR PRODUK */
+.daftar-produk {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* KARTU PRODUK */
+.produk {
+    width: 30%;
+    background-color: #F5F0E8;
+    border: 1px solid #D9C8B5;
+    padding: 15px;
+}
+
+/* FOTO PRODUK */
+.produk img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+/* NAMA PRODUK */
+.produk h2 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #46372F;
+    margin: 20px 0;
+}
+
+/* TOMBOL */
+.produk a {
+    display: inline-block;
+    background-color: #46372F;
+    color: white;
+    font-size: 13px;
+    padding: 12px 22px;
+    letter-spacing: 1px;
+}
+
+/* BAGIAN SIZE CHART */
+#size-chart {
+    background-color: #46372F;
+    color: #f5f0e8;
+    padding: 70px 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* LABEL KECIL DI ATAS JUDUL */
+#size-chart .label-size {
+    font-family: Georgia, serif;
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: #D9C8B5;
+    margin: 0 0 15px;
+}
+
+/* JUDUL SIZE CHART */
+#size-chart h2 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #f5f0e8;
+    text-align: center;
+    margin: 0 0 15px;
+}
+
+/* DESKRIPSI */
+#size-chart .deskripsi-size {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: #D9C8B5;
+    margin: 0 0 35px;
+}
+
+/* PEMBUNGKUS TABEL */
+#size-chart .tabel-size {
+    max-width: 900px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+/* TABEL */
+#size-chart .tabel-size table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f5f0e8;
+    color: #46372F;
+    font-family: Georgia, serif;
+}
+
+/* CAPTION TABEL */
+#size-chart .tabel-size caption {
+    caption-side: top;
+    color: #f5f0e8;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 0 0 15px;
+}
+
+/* SEL DAN GARIS TABEL */
+#size-chart .tabel-size th,
+#size-chart .tabel-size td {
+    border: 1px solid #D9C8B5;
+    padding: 17px 15px;
+    text-align: center;
+}
+
+/* BARIS JUDUL KOLOM */
+#size-chart .tabel-size th {
+    background-color: #D9C8B5;
+    color: #46372F;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* ISI TABEL */
+#size-chart .tabel-size td {
+    font-size: 15px;
+}
+
+/* CATATAN DI BAWAH TABEL */
+.catatan-size {
+    font-family: Georgia, serif;
+    font-size: 12px;
+    font-style: italic;
+    color: #D9C8B5;
+    margin: 22px 0 0;
+}
+
+/* PRODUCT INFORMATION */
+.jakartans-product
+ {
+    background-color: white;
+    color: #46372F;
+    padding: 60px 8%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/* INFORMASI PRODUK */
+.jakartans-info {
+    width: 60%;
+}
+
+/* GAMBAR PRODUK */
+.jakartans-main-image {
+    width: 40%;
+    background-color: #46372F;
+    padding: 20px;
+    text-align: center;
+}
+
+.jakartans-main-image img {
+    width: 100%;
+    max-width: 280px;
+}
+
+/* JUDUL */
+.jakartans-info h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    color: #46372F;
+}
+
+/* DETAIL */
+.jakartans-info span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.jakartans-info p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* TOMBOL */
+.jakartans-info button {
+    background-color: #46372F;
+    color: white;
+    border: none;
+    padding: 13px 28px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* PRODUCT INFORMATION */
+.tumbler-product {
+    background-color: white;
+    color: #46372F;
+    padding: 60px 8%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/* INFORMASI PRODUK */
+.tumbler-info {
+    width: 60%;
+}
+
+/* GAMBAR PRODUK */
+.tumbler-main-image {
+    width: 40%;
+    background-color: #46372F;
+    padding: 20px;
+    text-align: center;
+}
+
+.tumbler-main-image img {
+    width: 100%;
+    max-width: 280px;
+}
+
+/* JUDUL */
+.tumbler-info h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    color: #46372F;
+}
+
+/* DETAIL */
+.tumbler-info span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.tumbler-info p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* TOMBOL */
+.tumbler-info button {
+    background-color: #46372F;
+    color: white;
+    border: none;
+    padding: 13px 28px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* PRODUCT INFORMATION */
+.ziphoodie-product {
+    background-color: white;
+    color: #46372F;
+    padding: 60px 8%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/* INFORMASI PRODUK */
+.ziphoodie-info {
+    width: 60%;
+}
+
+/* GAMBAR PRODUK */
+.ziphoodie-main-image {
+    width: 40%;
+    background-color: #46372F;
+    padding: 20px;
+    text-align: center;
+}
+
+.ziphoodie-main-image img {
+    width: 100%;
+    max-width: 280px;
+}
+
+/* JUDUL */
+.ziphoodie-info h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    color: #46372F;
+}
+
+/* DETAIL */
+.ziphoodie-info span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.ziphoodie-info p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* TOMBOL */
+.ziphoodie-info button {
+    background-color: #46372F;
+    color: white;
+    border: none;
+    padding: 13px 28px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* BAGIAN SHOP */
+
+#shop {
+    background-color: #F5F0E8;
+    padding: 80px 8%;
+    color: #46372F;
+}
+
+#shop h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#form-shop {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid #D9C8B5;
+}
+
+#form-shop > label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#form-shop select,
+#form-shop > input,
+#form-shop textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #D9C8B5;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#form-shop textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+#form-shop p {
+    margin-top: 22px;
+    font-weight: bold;
+}
+
+#form-shop label:has(input[type="radio"]) {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#form-shop button {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    padding: 14px;
+    background-color: #46372F;
+    color: white;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+#form-shop button:hover {
+    background-color: #9C8069;
+}
+
+
+/* BAGIAN CONTACT */
+
+#contact {
+    background-color: white;
+    color: #46372F;
+}
+
+#contact-us {
+    padding: 80px 8%;
+}
+
+.judul-contact {
+    text-align: center;
+    max-width: 650px;
+    margin: auto;
+}
+
+.label-contact {
+    color: #9C8069;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.judul-contact h2 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+.deskripsi-contact {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #76675D;
+}
+
+
+/* KARTU KONTAK */
+
+.kartu-kontak {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.item-kontak {
+    flex: 1;
+    padding: 35px 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #46372F;
+    background-color: #F5F0E8;
+    border: 1px solid #D9C8B5;
+}
+
+.item-kontak:hover {
+    background-color: #EDE3D7;
+}
+
+.ikon-kontak {
+    display: block;
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+.item-kontak h3 {
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+.item-kontak p {
+    font-size: 13px;
+    line-height: 1.7;
+    color: #76675D;
+}
+
+.teks-link {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #9C8069;
+}
+
+
+/* MAPS DAN FORM CONTACT */
+
+#find-us {
+    background-color: #F5F0E8;
+    padding: 70px 8%;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.maps,
+.form-contact {
+    width: 50%;
+}
+
+.maps h3,
+.form-contact h3 {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.location-map {
+    width: 100%;
+    height: 350px;
+    border: none;
+}
+
+.catatan-maps {
+    font-size: 12px;
+    color: #76675D;
+    line-height: 1.6;
+}
+
+.form-contact {
+    background-color: white;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.form-contact > p {
+    font-size: 13px;
+    line-height: 1.7;
+    color: #76675D;
+}
+
+.form-contact label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form-contact input,
+.form-contact select,
+.form-contact textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #D9C8B5;
+    background-color: white;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.form-contact textarea {
+    resize: vertical;
+}
+
+.tombol-contact {
+    margin-top: 20px;
+    padding: 13px 25px;
+    background-color: #46372F;
+    color: white;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.tombol-contact:hover {
+    background-color: #9C8069;
+}
+
+
+/* FOOTER THE SUNTRI */
+
+#footer-suntri {
+    background-color: #46372F;
+    color: white;
+    padding: 0 8%;
+}
+
+
+/* BANNER FOOTER */
+
+.footer-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 55px 0;
+    border-bottom: 1px solid #76675D;
+}
+
+.footer-banner p {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.footer-banner h2 {
+    font-family: Georgia, serif;
+    font-size: 27px;
+}
+
+.tombol-footer {
+    color: #46372F;
+    background-color: #F5F0E8;
+    padding: 14px 22px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+
+/* ISI FOOTER */
+
+.footer-isi {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    padding: 55px 0;
+}
+
+.footer-brand {
+    width: 30%;
+}
+
+.footer-brand h2 {
+    font-family: Georgia, serif;
+    letter-spacing: 2px;
+}
+
+.footer-brand p,
+.footer-kolom p {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #D9C8B5;
+}
+
+.footer-sosmed {
+    display: flex;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.footer-sosmed a,
+.footer-kolom a {
+    color: #F5F0E8;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.footer-sosmed a:hover,
+.footer-kolom a:hover {
+    color: #D9C8B5;
+}
+
+.footer-kolom {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-kolom h3 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+
+/* FOOTER BOTTOM */
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #76675D;
+    padding: 20px 0;
+}
+
+.footer-bottom p,
+.footer-bottom a {
+    font-size: 12px;
+    color: #D9C8B5;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+}
+
+
